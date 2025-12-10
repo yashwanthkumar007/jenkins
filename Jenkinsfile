@@ -15,6 +15,7 @@ pipeline {
  stage('Deploy') {
             steps {
                 echo 'Deploying automatically'
+                echo 'Fork repository is done'
             }
         }
     }
